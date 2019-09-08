@@ -11,3 +11,6 @@
 - After you complete the exercise, provide any notes on your code below such as how to run your example
 
 ## Candidate Notes:
+* npm -g install static-server
+* cd PS-get-deep-property/
+* static-server

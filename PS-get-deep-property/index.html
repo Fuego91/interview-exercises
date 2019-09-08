@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+  <head>
+    <script src="./get-deep-property.js"></script>
+  </head>
+
+  <body>
+    <article>
+      <input
+        id="path"
+        type="text"
+        placeholder="Input path"
+        value="person.name.lastName"
+      />
+      <button id="run">GO</button>
+      <br />
+      <p id="result" style="color: green"></p>
+      <p id="error" style="color: red"></p>
+      <br />
+      <textarea
+        id="object"
+        placeholder="Input object"
+        rows="50"
+        cols="50"
+        >
+        {
+          "person": {
+            "test": 6,
+            "name": {
+              "first": "FirstName",
+              "middleInitial": "I",
+              "lastName": "LastName"
+            }
+          }
+        }
+      </textarea>
+    </article>
+  </body>
+</html>

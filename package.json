@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "engines": {
     "node": ">=6.4.0"
+  },
+  "devDependencies": {
+    "static-server": "^2.2.1"
   }
 }
