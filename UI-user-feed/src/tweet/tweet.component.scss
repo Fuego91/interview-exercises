@@ -1,0 +1,53 @@
+.tweet {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+
+
+  .text {
+    flex-grow: 1;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .tweet-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 0 0;
+
+    .creation-info {
+      display: flex;
+      font-size: small;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .user-name,
+    .creation-date {
+      display: flex;
+    }
+
+    .rating {
+      display: flex;
+      align-self: center;
+    }
+
+    .like-btn {
+      color: white;
+      font-size: large;
+      background: none;
+      border: none;
+      align-self: center;
+
+      &:hover {
+        background: dark-grey;
+        cursor: pointer;
+      }
+    }
+  }
+}

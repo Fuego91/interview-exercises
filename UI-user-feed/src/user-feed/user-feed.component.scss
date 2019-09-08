@@ -1,0 +1,17 @@
+.user-feed {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  width: max-content;
+
+  .feed-header {
+    display: flex;
+    flex-direction: row;
+
+    .tweets-amount {
+      font-size: xx-large;
+      align-self: center;
+      margin: 0 5px;
+    }
+  }
+}

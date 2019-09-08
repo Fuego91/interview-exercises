@@ -1,0 +1,25 @@
+.tweet-form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .new-tweet-input {
+    width: 100%;
+    display: flex;
+  }
+
+  .add-tweet-btn {
+    background: none;
+    color: white;
+    font-size: xx-large;
+    border: none;
+    font-weight: bold;
+    flex-grow: 0;
+    display: flex;
+    align-self: center;
+
+    &:disabled {
+      color: darkslategray;
+    }
+  }
+}
