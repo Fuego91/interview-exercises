@@ -7,7 +7,7 @@ interface TweetFormProps {
   onAddTweetClick: (tweet: TweetModel) => void;
 }
 
-const TweetForm = ({onAddTweetClick} : TweetFormProps): JSX.Element => {
+const TweetForm = ({onAddTweetClick} : TweetFormProps) => {
   const {newTweat, resetTweet, setNewTweat} = useTweetForm();
 
   const handleAddTweetClick = () => {
